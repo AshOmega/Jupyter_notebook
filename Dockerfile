@@ -12,9 +12,13 @@ python3 -m pip install pyspark && \
 python3 -m pip install matplotlib && \
 python3 -m pip install nltk && \
 python3 -m pip install recordlinkage && \
+python3 -m pip install scipy && \
+python3 -m pip install tqdm && \
+python3 -m pip install torch && \
+python3 -m pip install torchvision && \
 #apt-get -y install ipython3 && \
 #apt-get -y install python-ipykernel && \
-python3 -m pip install jupyter
+python3 -m pip install jupyter || true
 #python3 -m pip install --upgrade jupyter_core jupyter_client
 EXPOSE 8888
 #VOLUME C:/Work/Docker/Shared /home/docker/volumes
